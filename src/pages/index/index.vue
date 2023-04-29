@@ -9,7 +9,10 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-const title = ref("Hello");
+let title = $ref("Hello");
+onLoad(() => {
+  title = "你是最帅的崽";
+});
 </script>
 
 <style>
