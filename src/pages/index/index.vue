@@ -1,10 +1,15 @@
 <template>
-  <view class="content"> </view>
+  <view relative w-full>
+    <NavigationBar />
+  </view>
 </template>
 
 <script setup lang="ts">
 import { ref, reactive } from "vue";
 import { getBannerList, getCardList } from "@/api";
+
+import NavigationBar from "./components/NavigationBar.vue";
+
 let bannerList = reactive<string[]>([]);
 let productList = reactive<any[]>([]);
 onLoad(() => {
