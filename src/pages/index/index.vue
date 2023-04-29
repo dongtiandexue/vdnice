@@ -1,22 +1,17 @@
 <template>
-  <view class="content">
-    <image class="logo" src="/static/logo.png" />
-    <view class="text-area">
-      <text color-red text-50>{{ title }}</text>
-      <text @click="changeLogin"> 是否登录：{{ isLogin }}</text>
-    </view>
-  </view>
+  <view class="content"> </view>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-let { isLogin } = $(useUser());
-let title = $ref("Hello");
-const changeLogin = () => {
-  isLogin = !isLogin;
-};
+import { ref, reactive } from "vue";
+import { getBannerList, getCardList } from "@/api";
+let bannerList = reactive<string[]>([]);
+let productList = reactive<any[]>([]);
 onLoad(() => {
-  title = "你是最帅的崽";
+  bannerList = getBannerList()
+    .data[0].imgUrl.split(",")
+    .map((item) => item.replace("\n", ""));
+  productList = getCardList().data;
 });
 </script>
 
