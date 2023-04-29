@@ -3,13 +3,18 @@
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text color-red text-50>{{ title }}</text>
+      <text @click="changeLogin"> 是否登录：{{ isLogin }}</text>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
+let { isLogin } = $(useUser());
 let title = $ref("Hello");
+const changeLogin = () => {
+  isLogin = !isLogin;
+};
 onLoad(() => {
   title = "你是最帅的崽";
 });
