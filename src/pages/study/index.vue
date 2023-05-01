@@ -1,24 +1,17 @@
+<script lang="ts" setup>
+import NavigationBar from "./components/NavigationBar.vue";
+import PlayContainer from "./components/PlayContainer.vue";
+</script>
+
 <template>
-  <div>学习</div>
+  <view style="background-color: #f3f3f3">
+    <NavigationBar />
+    <PlayContainer />
+  </view>
 </template>
 
-<script setup lang="ts">
-import { ref, reactive, toRefs, watch, onMounted, getCurrentInstance } from "vue";
-
-const emit = defineEmits([""]);
-const props = defineProps({
-  propData: {
-    type: String,
-    default: "",
-  },
-});
-//const { } = toRefs(props);
-
-const { data } = toRefs(
-  reactive({
-    //定义数组和对象
-    data: "",
-  })
-);
-</script>
-<style lang="scss" scoped></style>
+<style>
+page {
+  background: #f5f5f5;
+}
+</style>
