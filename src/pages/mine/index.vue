@@ -1,24 +1,17 @@
+<script lang="ts" setup>
+import NavigationBar from "./components/NavigationBar.vue";
+import LoginContainer from "./components/LoginContainer.vue";
+</script>
+
 <template>
-  <div>我的</div>
+  <view style="background-color: #f3f3f3">
+    <NavigationBar />
+    <LoginContainer />
+  </view>
 </template>
 
-<script setup lang="ts">
-import { ref, reactive, toRefs, watch, onMounted, getCurrentInstance } from "vue";
-
-const emit = defineEmits([""]);
-const props = defineProps({
-  propData: {
-    type: String,
-    default: "",
-  },
-});
-//const { } = toRefs(props);
-
-const { data } = toRefs(
-  reactive({
-    //定义数组和对象
-    data: "",
-  })
-);
-</script>
-<style lang="scss" scoped></style>
+<style>
+page {
+  background: #f5f5f5;
+}
+</style>
