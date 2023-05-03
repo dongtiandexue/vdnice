@@ -11,7 +11,10 @@ import Search from "@/components/Search.vue";
     class="navbar"
     left-width="1px"
   >
-    <Search color="999999" background-color="#f6f6f6" />
+    <!-- 搜索 -->
+    <view class="search">
+      <Search color="999999" background-color="#f6f6f6" />
+    </view>
   </uni-nav-bar>
 </template>
 
@@ -24,5 +27,9 @@ import Search from "@/components/Search.vue";
   :deep(.uni-navbar__header) {
     padding: 0;
   }
+}
+
+.search {
+  margin: 10rpx 35rpx;
 }
 </style>

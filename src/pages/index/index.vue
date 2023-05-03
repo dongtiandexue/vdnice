@@ -1,5 +1,6 @@
 <template>
   <view relative w-full>
+    <!-- 首页导航条 -->
     <NavigationBar />
     <view style="padding: 0 35rpx 0 35rpx" box-border overflow-hidden>
       <view>
