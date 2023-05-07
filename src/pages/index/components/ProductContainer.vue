@@ -4,7 +4,12 @@
       <text class="title" truncate>{{ title }}</text>
     </div>
     <view class="items">
-      <Item v-for="item in list" :key="item.id" :item="item"></Item>
+      <Item
+        v-for="item in list"
+        :key="item.id"
+        :item="item"
+        @click="showProductInfo"
+      ></Item>
     </view>
   </view>
 </template>
@@ -18,6 +23,12 @@ defineProps<{
   list: IProduct[];
 }>();
 //const { } = toRefs(props);
+
+const showProductInfo = () => {
+  uni.navigateTo({
+    url: "/pages/info/index",
+  });
+};
 </script>
 <style lang="scss" scoped>
 .hot_product {

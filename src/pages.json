@@ -29,6 +29,12 @@
       "style": {
         "navigationBarTitleText": "搜索"
       }
+    },
+    {
+      "path": "pages/info/index",
+      "style": {
+        "navigationBarTitleText": "课程详情"
+      }
     }
   ],
   "globalStyle": {
