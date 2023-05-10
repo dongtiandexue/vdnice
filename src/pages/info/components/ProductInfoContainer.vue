@@ -1,7 +1,11 @@
 <template>
   <view class="container">
     <!-- 使用scroll-view实现tabs滑动切换 -->
-    <scroll-view class="top-menu-view" scroll-x="true" :scroll-into-view="tabCurrent">
+    <scroll-view
+      class="top-menu-view"
+      scroll-x="true"
+      :scroll-into-view="'item' + tabCurrent"
+    >
       <view
         class="menu-topic-view"
         v-for="item in tabs"
@@ -18,38 +22,50 @@
       </view>
     </scroll-view>
     <!-- 内容 -->
-    <swiper class="swiper-box-list" :current="currentTab" @change="swiperChange">
+    <!-- <swiper class="swiper-box-list" :current="currentTab" @change="swiperChange">
       <swiper-item
         class="swiper-topic-list"
         v-for="item in swiperDateList"
         :key="item.id"
       >
-        <view class="swiper-item">
-          {{ item.content }}
-        </view>
+        <view class="swiper-item"> -->
+    <view v-if="currentTab == 1">
+      <rich-text :nodes="productDetail.summary"></rich-text>
+    </view>
+    <view v-else-if="currentTab == 2">
+      <ProductChapter :chapter-list="chapterList"></ProductChapter>
+    </view>
+    <view v-else>
+      <view>其他</view>
+    </view>
+    <!-- </view>
       </swiper-item>
-    </swiper>
+    </swiper> -->
   </view>
 </template>
 
 <script setup lang="ts">
-let tabCurrent = $ref<string>("1");
+import { queryChapterById } from "@/api/product/detail";
+import type { IChapter } from "@/typings/interface";
+import ProductChapter from "./product-container/ProductChapter.vue";
+let tabCurrent = $ref<number>(1);
 let currentTab = $ref<number>(1);
+let chapterList = $ref<any[]>([]);
 const tabs = $ref<any[]>([
   {
-    id: "1",
+    id: 1,
     name: "课程介绍",
   },
   {
-    id: "2",
+    id: 2,
     name: "课程目录",
   },
   {
-    id: "3",
+    id: 3,
     name: "用户评价",
   },
   {
-    id: "4",
+    id: 4,
     name: "课程资料",
   },
 ]);
@@ -73,18 +89,27 @@ const swiperDateList = $ref<any[]>([
 ]);
 
 const swichMenu = (id: number) => {
+  console.log(`swichMenu ${id}`);
   currentTab = id;
   tabCurrent = id;
 };
 const swiperChange = (e: any) => {
   let index = e.detail.current;
+
   swichMenu(index);
 };
+
+defineProps<{
+  productDetail: any;
+}>();
+
+onLoad(() => {
+  chapterList = queryChapterById().data;
+});
 </script>
 <style lang="scss" scoped>
 .container {
   width: 100%;
-  height: 80vh;
   flex-direction: column;
   overflow: hidden;
   align-items: flex-start;

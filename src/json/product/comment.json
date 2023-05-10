@@ -1,0 +1,42 @@
+{
+  "code": 0,
+  "data": {
+    "total_page": 1,
+    "current_data": [
+      {
+        "id": 32638474,
+        "content": "内容很全面，提升了一个认知高度，",
+        "accountId": 6785097,
+        "headImg": "https://file.xdclass.net/user_file/2022/10/2ecd3b0452aa197097d5131afacab7b8.png",
+        "username": "编程小白9999",
+        "totalPoint": 96.67,
+        "contentPoint": 100.0,
+        "easyPoint": 100.0,
+        "logicPoint": 90.0,
+        "up": 1,
+        "orderId": 7380962,
+        "productId": 85,
+        "learnTime": 225534,
+        "gmtCreate": "2023-02-09 16:28:53"
+      },
+      {
+        "id": 32638470,
+        "content": "知识点全面",
+        "accountId": 675846,
+        "headImg": "https://thirdwx.qlogo.cn/mmopen/vi_32/yAQEVvmgonK7YndDykhzWS4ro2ZpSgCuRibmYZcMU9ZRDIczIsmQmnefRkuwEwGS8mbzav6p9eGp9IRCyhdYr5A/132",
+        "username": "雪豹",
+        "totalPoint": 100.0,
+        "contentPoint": 100.0,
+        "easyPoint": 100.0,
+        "logicPoint": 100.0,
+        "up": 1,
+        "orderId": 7381274,
+        "productId": 85,
+        "learnTime": 365041,
+        "gmtCreate": "2022-11-29 22:40:26"
+      }
+    ],
+    "total_record": 2
+  },
+  "msg": null
+}

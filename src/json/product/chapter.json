@@ -1,0 +1,360 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": 3701,
+      "productId": 85,
+      "title": "独孤求败-⼩滴云架构⼤课⼗⼋式课程介绍【必看】",
+      "episodeList": [
+        {
+          "id": 147501,
+          "title": "小滴云架构大课十八式课程介绍和适合人员【重点】",
+          "ordered": 1,
+          "hwyunId": "3b58dc30970619356697898a1e0ba5f7",
+          "aliyunId": null,
+          "chapterId": 3701,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:09:56",
+          "gmtModified": "2022-11-18 14:59:37"
+        },
+        {
+          "id": 147502,
+          "title": "小滴云架构大课十八式核心内容大纲【重点】",
+          "ordered": 2,
+          "hwyunId": "99169f3f8334f4865ee67c6d596fdd0a",
+          "aliyunId": null,
+          "chapterId": 3701,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:42",
+          "gmtModified": "2022-11-18 14:59:38"
+        },
+        {
+          "id": 147503,
+          "title": "必看-架构大课实操指南-观看形式和疑惑解答",
+          "ordered": 3,
+          "hwyunId": "28ebd547ab1a9dd812adddd233ee9a6e",
+          "aliyunId": null,
+          "chapterId": 3701,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:43",
+          "gmtModified": "2022-11-18 14:59:39"
+        }
+      ],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:54:22",
+      "gmtModified": "2022-11-18 14:01:42"
+    },
+    {
+      "id": 3702,
+      "productId": 85,
+      "title": "打开天窗说⼈话-架构师是做什么的？",
+      "episodeList": [
+        {
+          "id": 147504,
+          "title": "行业中架构师分类和明确自己发展方向",
+          "ordered": 1,
+          "hwyunId": "9ae1bca880bee58eb317c4b1ef474830",
+          "aliyunId": null,
+          "chapterId": 3702,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:45",
+          "gmtModified": "2022-11-18 14:59:45"
+        },
+        {
+          "id": 147505,
+          "title": "多数人的架构师成长方向-应用架构师",
+          "ordered": 2,
+          "hwyunId": "1f50dc980f81db2d1bccf10f7c490307",
+          "aliyunId": null,
+          "chapterId": 3702,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:46",
+          "gmtModified": "2022-11-18 14:59:52"
+        },
+        {
+          "id": 147506,
+          "title": "看看主流招聘网站架构师的岗位内容和任职要求",
+          "ordered": 3,
+          "hwyunId": "c4253decef16fc1b4c11935154b3f2f7",
+          "aliyunId": null,
+          "chapterId": 3702,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:48",
+          "gmtModified": "2022-11-18 14:59:53"
+        },
+        {
+          "id": 147507,
+          "title": "组团看看大家对架构师方向最关心的问题",
+          "ordered": 4,
+          "hwyunId": "88aa551d847624be275321242ee42032",
+          "aliyunId": null,
+          "chapterId": 3702,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:56",
+          "gmtModified": "2022-11-18 14:59:53"
+        },
+        {
+          "id": 147508,
+          "title": "架构师有没有不会的问题-如何评定靠谱的架构师？",
+          "ordered": 5,
+          "hwyunId": "4408b4fe09bbb6a16aa34e429e34f215",
+          "aliyunId": null,
+          "chapterId": 3702,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:12:57",
+          "gmtModified": "2022-11-18 14:59:55"
+        }
+      ],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:54:45",
+      "gmtModified": "2022-11-18 14:01:56"
+    },
+    {
+      "id": 3703,
+      "productId": 85,
+      "title": "架构师视ᰀ和综合能⼒模型提升",
+      "episodeList": [
+        {
+          "id": 147509,
+          "title": "主流互联网领域核心难点浅析",
+          "ordered": 1,
+          "hwyunId": "a6259b29910279c2cbc382d15ceb7bc3",
+          "aliyunId": null,
+          "chapterId": 3703,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:14:14",
+          "gmtModified": "2022-11-18 15:08:09"
+        },
+        {
+          "id": 147510,
+          "title": "最通俗易懂的中台概念解释-系统复用",
+          "ordered": 2,
+          "hwyunId": "20d3e5e3c0201cb77b59045a99a61efa",
+          "aliyunId": null,
+          "chapterId": 3703,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:14:16",
+          "gmtModified": "2022-11-18 15:08:15"
+        },
+        {
+          "id": 147511,
+          "title": "顶层设计-锻炼架构师的业务抽象能力",
+          "ordered": 3,
+          "hwyunId": "fd3cdbb50ace1f956757c4e6ce109056",
+          "aliyunId": null,
+          "chapterId": 3703,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:15:14",
+          "gmtModified": "2022-11-18 15:08:15"
+        },
+        {
+          "id": 147512,
+          "title": "小试菜刀-业务领域API里面抽象能力案例实战",
+          "ordered": 4,
+          "hwyunId": "51f7ed8cf503648eb45c7e7290f9eb63",
+          "aliyunId": null,
+          "chapterId": 3703,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:15:16",
+          "gmtModified": "2022-11-18 15:08:16"
+        }
+      ],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:54:49",
+      "gmtModified": "2022-11-18 14:02:55"
+    },
+    {
+      "id": 3704,
+      "productId": 85,
+      "title": "架构师必备技术⼀图胜千⾔-架构图《上》",
+      "episodeList": [
+        {
+          "id": 147513,
+          "title": "你知道架构师如何画大饼-架构图",
+          "ordered": 1,
+          "hwyunId": "9b93cf691a9645e4df217639f943849f",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 95,
+          "gmtCreate": "2022-11-18 14:15:20",
+          "gmtModified": "2022-11-18 15:08:28"
+        },
+        {
+          "id": 147514,
+          "title": "当个架构师-架构理论TOGAF和初识业务架构图",
+          "ordered": 2,
+          "hwyunId": "b1eac2ad0d40013aff0b6f45d3682a7b",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:15:21",
+          "gmtModified": "2022-11-18 15:08:37"
+        },
+        {
+          "id": 147515,
+          "title": "小滴课堂老王建房子秒懂-IaaS-PaaS-SaaS",
+          "ordered": 3,
+          "hwyunId": "e4aa53c0b59d5e2fcdaad72d2aa56af2",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:15:23",
+          "gmtModified": "2022-11-18 15:08:38"
+        },
+        {
+          "id": 147516,
+          "title": "当个画家-教你画高大上的业务架构图",
+          "ordered": 4,
+          "hwyunId": "f4ba372c509a2a6968c16a907ead63b8",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:15:25",
+          "gmtModified": "2022-11-18 15:08:38"
+        },
+        {
+          "id": 147517,
+          "title": "作业-电商项目业务架构图-实操为王",
+          "ordered": 5,
+          "hwyunId": "050e94a6bc619279702815144ac92703",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:16:10",
+          "gmtModified": "2022-11-18 15:08:39"
+        },
+        {
+          "id": 147518,
+          "title": "当个画家-教你画高大上的应用架构图",
+          "ordered": 6,
+          "hwyunId": "09f2ef7b7ce8a3d090f877fec7069246",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:16:13",
+          "gmtModified": "2022-11-18 15:08:39"
+        },
+        {
+          "id": 147519,
+          "title": "细分领域-技术架构图和数据架构图",
+          "ordered": 7,
+          "hwyunId": "acce1dfba57c429e8087b4636678d705",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:16:15",
+          "gmtModified": "2022-11-18 15:08:40"
+        },
+        {
+          "id": 147520,
+          "title": "业务-应用-技术-数据架构图总结回顾",
+          "ordered": 8,
+          "hwyunId": "a789e56acdd281732ce51bb0d479d3e8",
+          "aliyunId": null,
+          "chapterId": 3704,
+          "duration": null,
+          "free": 1,
+          "productId": 85,
+          "gmtCreate": "2022-11-18 14:16:17",
+          "gmtModified": "2022-11-18 15:08:42"
+        }
+      ],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:54:52",
+      "gmtModified": "2022-11-18 14:03:20"
+    },
+    {
+      "id": 3705,
+      "productId": 85,
+      "title": "【重要】大课已更新多集，购买后联系客服可直接看",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:07",
+      "gmtModified": "2022-11-18 14:03:28"
+    },
+    {
+      "id": 3706,
+      "productId": 85,
+      "title": "重要】会员参加大课训练营有特殊价格，联系客服即可",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:10",
+      "gmtModified": "2022-11-18 14:03:38"
+    },
+    {
+      "id": 3707,
+      "productId": 85,
+      "title": "【下面是加密内容】-----------详细内容联系课程顾问冰冰/Anna/老王-----------",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:25",
+      "gmtModified": "2022-11-18 14:03:49"
+    },
+    {
+      "id": 3708,
+      "productId": 85,
+      "title": "【详细课程目录联系Anna/冰冰】每月1号和15号更新，每次25到50集不等！",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:28",
+      "gmtModified": "2022-11-18 14:04:21"
+    },
+    {
+      "id": 3709,
+      "productId": 85,
+      "title": "架构师必备技术⼀图胜千⾔-架构图《下》",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:42",
+      "gmtModified": "2022-11-18 14:05:07"
+    },
+    {
+      "id": 3710,
+      "productId": 85,
+      "title": "架构图的常⽤技巧和作业需求",
+      "episodeList": [],
+      "ordered": null,
+      "gmtCreate": "2022-11-18 13:55:44",
+      "gmtModified": "2022-11-18 14:05:09"
+    }
+  ],
+  "msg": null
+}

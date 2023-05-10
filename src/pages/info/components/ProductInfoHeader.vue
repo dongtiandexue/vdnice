@@ -30,11 +30,9 @@
 </template>
 
 <script setup lang="ts">
-import { queryDetailById } from "@/api/product/detail";
-let productDetail = $ref<any>({});
-onLoad(() => {
-  productDetail = queryDetailById().data;
-});
+defineProps<{
+  productDetail: any;
+}>();
 </script>
 <style lang="scss" scoped>
 .container {
