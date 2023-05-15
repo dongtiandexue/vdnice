@@ -35,6 +35,9 @@
     <view v-else-if="currentTab == 2">
       <ProductChapter :chapter-list="chapterList"></ProductChapter>
     </view>
+    <view v-else-if="currentTab == 4">
+      <ProductMaterials></ProductMaterials>
+    </view>
     <view v-else>
       <view>其他</view>
     </view>
@@ -48,6 +51,7 @@
 import { queryChapterById } from "@/api/product/detail";
 import type { IChapter } from "@/typings/interface";
 import ProductChapter from "./product-container/ProductChapter.vue";
+import ProductMaterials from "./product-container/ProductMaterials.vue";
 let tabCurrent = $ref<number>(1);
 let currentTab = $ref<number>(1);
 let chapterList = $ref<any[]>([]);
