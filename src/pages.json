@@ -35,6 +35,12 @@
       "style": {
         "navigationBarTitleText": "课程详情"
       }
+    },
+    {
+      "path": "pages/play/index",
+      "style": {
+        "navigationBarTitleText": "播放"
+      }
     }
   ],
   "globalStyle": {

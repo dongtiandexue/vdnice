@@ -2,7 +2,7 @@
   <view class="container">
     <view class="left">
       <view><image :src="productDetail.coverImg" /></view>
-      <view class="play">
+      <view class="play" @click="playVideo">
         <image src="@/static/images/icons/video/detail/play.png" />
         <text c-white>点击试看</text>
       </view>
@@ -33,6 +33,11 @@
 defineProps<{
   productDetail: any;
 }>();
+const playVideo = () => {
+  uni.navigateTo({
+    url: "/pages/play/index",
+  });
+};
 </script>
 <style lang="scss" scoped>
 .container {
