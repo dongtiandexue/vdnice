@@ -1,5 +1,5 @@
 <template>
-  <view class="container">
+  <view class="container-chapter">
     <ChapterItem
       v-for="(item, index) in chapterList"
       mb-3

@@ -117,7 +117,7 @@ onLoad(() => {
   flex-direction: column;
   overflow: hidden;
   align-items: flex-start;
-  padding-top: 40rpx;
+  padding-top: 40rpx !important;
   background-color: #fff;
   border-radius: 10rpx;
 

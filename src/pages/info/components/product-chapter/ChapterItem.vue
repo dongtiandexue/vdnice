@@ -2,8 +2,10 @@
   <view class="container">
     <view class="chapter">
       <text class="title">第 {{ index + 1 }} 章 - {{ chapter.title }}</text>
+      <uni-icons v-if="showEpisodeList" type="top" size="22" mr-1></uni-icons>
+      <uni-icons v-else type="bottom" size="22" mr-1></uni-icons>
     </view>
-    <view class="episode-list">
+    <view class="episode-list" v-if="chapter.episodeList">
       <view
         class="episode"
         v-for="(episode, index) in chapter.episodeList"
@@ -24,6 +26,8 @@ defineProps<{
   chapter: IChapter;
   index: number;
 }>();
+
+let showEpisodeList = $ref<boolean>();
 </script>
 <style lang="scss" scoped>
 .container {

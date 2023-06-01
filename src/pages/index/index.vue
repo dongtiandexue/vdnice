@@ -4,6 +4,7 @@
     <NavigationBar />
     <view style="padding: 0 35rpx 0 35rpx" box-border overflow-hidden>
       <view>
+        <!-- 首页轮播图 -->
         <IndexSwiper :banner-list="bannerList" />
         <Category />
         <ProductContainer
@@ -24,13 +25,29 @@ import NavigationBar from "./components/NavigationBar.vue";
 import Category from "./components/Category.vue";
 import IndexSwiper from "./components/IndexSwiper.vue";
 import ProductContainer from "./components/ProductContainer.vue";
+import { bannerUrl } from "@/constants/api-host";
 
 let bannerList = $ref<string[]>([]);
 let cardList = $ref<any[]>([]);
 onLoad(() => {
-  bannerList = getBannerList()
-    .data[0].imgUrl.split(",")
-    .map((item) => item.replace("\n", ""));
+  uni.request({
+    url: bannerUrl, //仅为示例，并非真实接口地址。
+    success: (res) => {
+      console.log("get成功");
+      console.log(res.data);
+      bannerList = res.data.data[0].imgUrl
+        .split(",")
+        .map((item) => item.replace("\n", ""));
+    },
+    fail: (res) => {
+      console.log("get失败");
+      // console.log(res.data);
+    },
+  });
+  // getBannerList();
+  // bannerList = getBannerList()
+  // .data[0].imgUrl.split(",")
+  // .map((item) => item.replace("\n", ""));
   cardList = getCardList().data;
 });
 </script>
